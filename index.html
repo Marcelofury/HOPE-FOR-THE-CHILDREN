@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Hope for the Children</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"> HOPE FOR THE CHILDREN</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#projects">Our Projects</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="hero">
+      <h1>Welcome to Hope for the Children, Helping Children for a Brighter Future</h1>
+      <p>Making the world a better place, one step at a time.</p>
+      <p>  Join us in making a difference in the lives of underprivileged children.</p>
+      <a href="#donate" class="btn">Donate Now</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        We are dedicated to improving lives and building communities through our various charity projects.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Our Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <h3> CLEAN WATER PROJECT</h3>
+          <p>Description of Project 1.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Description of Project 2.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>Description of Project 3.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="donate">
+      <h2>Donate</h2>
+      <p>
+        Your donation can make a real difference. Please contribute and support our projects.
+      </p>
+      <!-- Replace the form action URL with your preferred form handling service (like Formspree or your own backend) -->
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label for="donation-amount">Donation Amount ($):</label>
+        <input type="number" id="donation-amount" name="donation-amount" required />
+        <button type="submit">Donate</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <!-- Replace the form action URL with your preferred form handling service -->
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hope for the Children. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
