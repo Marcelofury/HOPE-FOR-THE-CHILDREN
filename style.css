@@ -1,0 +1,195 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+
+    background-image: url(images/IMG-20250301-WA0016.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility:inherit;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header & Navigation */
+  header {
+    background: #4CAF50;
+    background-image: url(images/IMG-20250301-WA0016.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility:inherit;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .header-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  header nav ul li {
+    margin: 0 15px;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+  }
+  header nav ul li a:hover,
+  header nav ul li a.active {
+    color: #c1e2b3;
+  }
+  
+  /* Hero Section (Home Page) */
+  .hero {
+    background: url('hero-image.jpg') center center/cover no-repeat;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Section Titles and Paragraphs */
+  section {
+    padding: 60px 0;
+  }
+  section h2,
+  section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  section p {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  
+  /* Button Styles */
+  .btn {
+    background: #4CAF50;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    display: inline-block;
+  }
+  .btn:hover {
+    background: #3e8e41;
+  }
+  
+  /* About, Donate, and Projects Specific Sections */
+  .about, .donate, .contact, .projects, .intro {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Contact Form Styles */
+  .contact form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  .contact form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  .contact form button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #4CAF50;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .contact form button:hover {
+    background: #3e8e41;
+  }
+  
+  /* Donate Options */
+  .donate-options {
+    text-align: center;
+  }
+  .donate-options .btn {
+    margin: 10px;
+  }
+  
+  /* Projects Layout */
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .project-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 300px;
+    max-width: 300px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer p {
+    margin: 0;
+  }
+  
